@@ -426,7 +426,7 @@ footer div h2, .footer-homebanking h2 {
 }
 
 #form-homebanking {
-  background-image: url(/multimedia/homebanking.jpg);
+  background-image: url(../multimedia/homebanking.jpg);
   background-position: center;
   background-repeat: no-repeat;
   padding: 40px;
@@ -533,7 +533,7 @@ footer div h2, .footer-homebanking h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .ayuda-desktop {
-    background-image: url(/multimedia/ayuda.jpg);
+    background-image: url(../multimedia/ayuda.jpg);
     height: 600px;
   }
   .ayuda-desktop h2 {
