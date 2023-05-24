@@ -1,0 +1,111 @@
+.carrusel-inicio-mobile .barNav-personas, .carrusel-empresas-mobile .barNav-personas{
+    margin-left: 0;
+}
+.carrusel-bar{
+    position: relative;
+    left: 15%
+}
+.navBar{
+    margin-top: 20px;
+}
+.row-navBar{
+    align-items: center;
+}
+.navbar-toggler{
+    border: 1px solid;
+}
+.div-icono{
+    @extend %FlexColumn;
+}
+.div-homebanking button a{
+    text-decoration: $sinSub;
+}
+.div-icono h1, .div-icono i{
+    color: nth($colores, 1);
+    font-weight: 700;
+    font-size: 40px;
+}
+.div-icono h1{
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.div-homebanking button{
+    border: 3px solid nth($colores, 1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(102, 154, 204, 40%);
+  
+}
+.div-homebanking button a{
+    color:nth($colores, 1);
+    font-weight: 700;
+}
+
+@media only screen and (min-width:577px){
+    .navBar{
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .div-icono{
+        flex-direction: row;
+    }
+    .div-icono i{
+        font-size: 60px;
+    }
+    .div-icono h3{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .div-navBar-desktop{
+        font-size: 25px;
+    }
+    .nav-underline .nav-item{
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    .nav-underline{
+     margin-left: 50px;
+    }
+    .nav-link{
+        color:nth($colores, 1);
+    }
+    .nav-item{
+        color:#669ACC;
+    }
+    .btn-buscador i{
+        color: nth($colores, 1);
+        font-size: 30px;
+    }
+    .form-control{
+        font-size: 20px;
+        width: 200px;
+    }
+    .div-turnos-desktop button a{
+        text-decoration: $sinSub;
+        color: nth($colores, 1);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .div-turnos-desktop button, .div-homebanking button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border:none;
+        
+    }
+    .div-turnos-desktop button{
+        margin-left: 50px;
+    }
+    .div-homebanking button{
+        background-color: nth($colores, 1);
+    }
+    .div-homebanking button a{
+        color: nth($colores, 2);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .d-flex .buscador{
+        width: 200px;
+    }
+}

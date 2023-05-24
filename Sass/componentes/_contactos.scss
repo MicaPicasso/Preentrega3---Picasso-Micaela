@@ -1,0 +1,64 @@
+.contactos{
+    @extend %FlexRow;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #c0c0c059;
+    padding-top: 30px;
+}
+.contactos ul{
+    list-style: $sinSub;
+    padding: 0;
+   margin-bottom: 40px;
+}
+.atencionCliente{
+    @extend %FlexColumn;
+}
+.redes{
+    @extend %FlexRow;
+}
+.redes li{
+    margin: 0 10px;
+    font-size: 25px;
+}
+.contactados ul li{
+    margin-bottom: 19px;
+}
+.contactos{
+    font-size: 17px;
+}
+
+@media only screen and (min-width:577px){
+.contactos{
+    height: 150px;
+    font-size: 25px;
+}
+.contactados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactados ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.atencionCliente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.atencionCliente .redes, .atencionCliente p, .contactados ul, .contactados ul li{
+    margin-bottom: 0;
+}
+.contactados ul li i{
+    margin-right: 5px;
+    margin-left: 35px;
+}
+.atencionCliente p{
+    margin-right: 35px;
+}
+.atencionCliente .redes li i{
+    font-size: 30px;
+}
+}

@@ -1,0 +1,57 @@
+footer{
+    margin: 20px;
+    @extend %FlexColumn;
+}
+footer p{
+    font-size: 11px;
+    text-align: center;
+}
+footer div, .footer-homebanking{
+    @extend %FlexColumn;
+}
+footer div i, .footer-homebanking i{
+    font-size: 30px;
+}
+footer div h2, .footer-homebanking h2{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.footer-homebanking{
+    margin-top: 30px;
+}
+.btn-institucional{
+    background-color: nth($colores, 1);
+    margin-left: 35%;
+}
+
+@media only screen and (min-width:577px){
+    footer p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    footer div i, .footer-homebanking div i{
+        font-size: 65px;
+        margin-top: 40px;
+    }
+    footer div h2, .footer-homebanking div h2{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .btn-ayuda{
+        position: fixed;
+        bottom: 0; 
+        right: 20px;
+        border-radius: 50%;
+        padding: 40px 30px;
+        margin-bottom: 20px;
+        background-color: nth($colores, 1 );
+        color:#D4EAFF;
+        font-weight: 700;
+        }
+    footer{
+        padding: 30px 20px;
+    }
+    
+}

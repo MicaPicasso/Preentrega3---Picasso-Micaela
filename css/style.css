@@ -1,0 +1,748 @@
+.redes, .contactos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer div, .footer-homebanking, footer, .atencionCliente, .div-icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carrusel-inicio-mobile .barNav-personas, .carrusel-empresas-mobile .barNav-personas {
+  margin-left: 0;
+}
+
+.carrusel-bar {
+  position: relative;
+  left: 15%;
+}
+
+.navBar {
+  margin-top: 20px;
+}
+
+.row-navBar {
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: 1px solid;
+}
+
+.div-homebanking button a {
+  text-decoration: none;
+}
+
+.div-icono h1, .div-icono i {
+  color: #003466;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.div-icono h1 {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.div-homebanking button {
+  border: 3px solid #003466;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgba(102, 154, 204, 0.4);
+}
+
+.div-homebanking button a {
+  color: #003466;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 577px) {
+  .navBar {
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .div-icono {
+    flex-direction: row;
+  }
+  .div-icono i {
+    font-size: 60px;
+  }
+  .div-icono h3 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .div-navBar-desktop {
+    font-size: 25px;
+  }
+  .nav-underline .nav-item {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .nav-underline {
+    margin-left: 50px;
+  }
+  .nav-link {
+    color: #003466;
+  }
+  .nav-item {
+    color: #669ACC;
+  }
+  .btn-buscador i {
+    color: #003466;
+    font-size: 30px;
+  }
+  .form-control {
+    font-size: 20px;
+    width: 200px;
+  }
+  .div-turnos-desktop button a {
+    text-decoration: none;
+    color: #003466;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .div-turnos-desktop button, .div-homebanking button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+  }
+  .div-turnos-desktop button {
+    margin-left: 50px;
+  }
+  .div-homebanking button {
+    background-color: #003466;
+  }
+  .div-homebanking button a {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .d-flex .buscador {
+    width: 200px;
+  }
+}
+.contactos {
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(192, 192, 192, 0.3490196078);
+  padding-top: 30px;
+}
+
+.contactos ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.redes li {
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+.contactados ul li {
+  margin-bottom: 19px;
+}
+
+.contactos {
+  font-size: 17px;
+}
+
+@media only screen and (min-width: 577px) {
+  .contactos {
+    height: 150px;
+    font-size: 25px;
+  }
+  .contactados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .contactados ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .atencionCliente {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .atencionCliente .redes, .atencionCliente p, .contactados ul, .contactados ul li {
+    margin-bottom: 0;
+  }
+  .contactados ul li i {
+    margin-right: 5px;
+    margin-left: 35px;
+  }
+  .atencionCliente p {
+    margin-right: 35px;
+  }
+  .atencionCliente .redes li i {
+    font-size: 30px;
+  }
+}
+footer {
+  margin: 20px;
+}
+
+footer p {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer div i, .footer-homebanking i {
+  font-size: 30px;
+}
+
+footer div h2, .footer-homebanking h2 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.footer-homebanking {
+  margin-top: 30px;
+}
+
+.btn-institucional {
+  background-color: #003466;
+  margin-left: 35%;
+}
+
+@media only screen and (min-width: 577px) {
+  footer p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  footer div i, .footer-homebanking div i {
+    font-size: 65px;
+    margin-top: 40px;
+  }
+  footer div h2, .footer-homebanking div h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .btn-ayuda {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border-radius: 50%;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    background-color: #003466;
+    color: #D4EAFF;
+    font-weight: 700;
+  }
+  footer {
+    padding: 30px 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif;
+  color: #003466;
+}
+
+.Principal-mobile, .beneficios-mobile, main, .Principal-personas-mobile, header, .carrusel-inicio-mobile, .imagen-empresas-mobile, .foto-institucional-mobile, .carrusel-noticias-mobile, .propuestas-empresa-mobile {
+  width: 100%;
+}
+
+.carrusel-noticias-mobile .carrusel-novedades .carousel-item {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  left: 23%;
+}
+
+.carrusel-noticias-mobile .carrusel-novedades {
+  margin-left: 0;
+}
+
+.novedades-personas-mobile .novedades-personas-mobile2 {
+  margin-left: 0;
+}
+
+.novedades-personas-mobile2 img {
+  position: relative;
+  left: 20%;
+}
+
+.carrusel-empresa-mobile .carrusel-inner-empresas {
+  margin-left: 0;
+}
+
+.carrusel-inner-empresas .carousel-item img {
+  margin-left: 70px;
+}
+
+.novedades {
+  background-color: #003466;
+}
+
+.div-novedad3, .div-novedad1, .div-novedad2, .div-novedad4 {
+  padding: 0;
+}
+
+.boton {
+  background-color: rgba(192, 192, 192, 0.3490196078);
+  height: 329px;
+}
+
+.btn-conoceMas {
+  position: relative;
+  bottom: 190px;
+  left: 60%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #C0C0C0;
+  font-weight: 700;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: black;
+  background-color: black;
+}
+
+.carousel-inner {
+  margin-left: 80px;
+}
+
+.carousel-control-next-personas, .carousel-control-prev-personas, .carousel-control-prev-empresas, .carousel-control-next-empresas {
+  width: 30px;
+}
+
+.carousel-control-prev2, .carousel-control-next2 {
+  background-color: transparent;
+}
+
+.icono-barra {
+  font-size: 32px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.novedades-personas-mobile2 {
+  margin-left: 25%;
+}
+
+.beneficios-personas-desktop {
+  margin-left: 50px;
+}
+
+.carrusel-inicio-mobile, .carrusel-empresas-mobile {
+  padding: 15px;
+}
+
+.barNav-personas {
+  width: 500px;
+}
+
+.propuestas-empresa-mobile {
+  margin-top: 60px;
+}
+
+.propuestas-empresa-mobile h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.carrusel-empresa-mobile {
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn-outline-success {
+  --bs-btn-color: nth($colores, 1);
+  --bs-btn-border-color:nth($colores, 1);
+  --bs-btn-active-color: black;
+  --bs-btn-border-width: 3px;
+}
+
+.img-principal-institucional {
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.img-principal-institucional h1 {
+  position: relative;
+  background-color: rgba(94, 103, 111, 0.8);
+  bottom: 100px;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.carrusel-noticias-mobile .carousel-item {
+  margin-left: 10%;
+}
+
+.curriculum-mobile-text {
+  margin-top: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.curriculum-mobile-text2 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.curriculum-mobile {
+  width: 300px;
+}
+
+.curriculum-mobile-img {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.btn-curriculum {
+  background-color: #003466;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.offcanvas-title {
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#form-homebanking {
+  background-image: url(/multimedia/homebanking.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+#form-homebanking h1 {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#form-homebanking h1 span, .mb-3 .form-label, .form-check-label, .btn-homebanking {
+  color: #C0C0C0;
+  font-weight: bold;
+}
+
+#form-homebanking h1 span {
+  color: white;
+}
+
+.btn-homebanking {
+  background-color: #003466;
+  border: none;
+  padding: 10px 30px;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.div-navBar-desktop, .div-search-desktop, .div-turnos-desktop, .carrusel-inicio, #anuncios-desktop, #novedades-desktop, .beneficios-desktop, .ayuda-desktop, .btn-ayuda, .menu-personas-desktop, .carrusel-personas, .ayuda-personas-desktop, #section-personas-desktop, .video-asociate, .foto-institucional-desktop, .img-empresas-desktop, .propuestas-empresas-desktop, .noticias-desktop, .div-botones-desktop, .info-footer-homebanking {
+  display: none;
+}
+
+@media only screen and (min-width: 577px) {
+  .div-navBar-desktop, .div-search-desktop, .div-turnos-desktop, .carrusel-inicio, #anuncios-desktop, #novedades-desktop, .beneficios-desktop, .ayuda-desktop, .btn-ayuda, .menu-personas-desktop, .carrusel-personas, .ayuda-personas-desktop, #section-personas-desktop, .foto-institucional-desktop, .img-empresas-desktop, .propuestas-empresas-desktop, .noticias-desktop, .div-botones-desktop, .info-footer-homebanking, .video-asociate {
+    display: block;
+  }
+  .div-menu, .Principal-mobile, .novedades, .beneficios-mobile, .carrusel-inicio-mobile, .Principal-personas-mobile, .novedades-personas-mobile, .img-principal-institucional h1, .carrusel-empresas-mobile, .imagen-empresas-mobile, .carrusel-empresa-mobile, .foto-institucional-mobile, .carrusel-noticias-mobile, .curriculum-mobile-img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 577px) {
+  .carousel-control-prev, .carousel-control-next {
+    background-color: transparent;
+  }
+  .carrusel-inner-inicio, .carrusel-inner-personas, .carrrusel-inner-empresas {
+    margin-left: 0;
+  }
+  #anuncios-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #anuncios-desktop ul {
+    height: 500px;
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #003466;
+    padding: 30px 30px;
+  }
+  #anuncios-desktop ul li {
+    display: flex;
+    flex-direction: row;
+  }
+  #anuncios-desktop ul li i {
+    font-size: 40px;
+  }
+  #anuncios-desktop ul li p {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  #anuncios-desktop ul li p span {
+    font-weight: bold;
+  }
+  .boton {
+    height: 600px;
+  }
+  .boton img {
+    width: 100%;
+  }
+  .boton button {
+    font-size: 40px;
+    left: 40%;
+  }
+  #novedades-desktop {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #003466;
+  }
+  #novedades-desktop div p {
+    width: 350px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin-top: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .ayuda-desktop {
+    background-image: url(/multimedia/ayuda.jpg);
+    height: 600px;
+  }
+  .ayuda-desktop h2 {
+    font-size: 80px;
+    color: #003466;
+    padding-top: 80px;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  .ayuda-desktop h3 {
+    font-size: 40px;
+    color: #003466;
+    margin-top: 40px;
+    font-weight: bold;
+    padding-left: 70px;
+  }
+  .ayuda-desktop button {
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #003466;
+    color: #C0C0C0;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+  .menu-personas-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #003466;
+    padding: 20px 0;
+  }
+  .menu-personas-desktop button {
+    border: none;
+    color: #C0C0C0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .btn-outline-dark {
+    --bs-btn-hover-bg:nth($colores, 2);
+  }
+  .ayuda-personas-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+  }
+  .ayuda-personas-desktop h1 {
+    margin-top: 50px;
+    font-size: 70px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  .ayuda-personas-desktop div button {
+    font-weight: bold;
+    color: #003466;
+    padding: 15px 10px;
+    background-color: #94bde3;
+  }
+  .video-asociate button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+    top: 400px;
+    left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+  }
+  .beneficios-personas-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .beneficios-personas-desktop a img {
+    margin-left: 80px;
+  }
+  #section-personas-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #94bde3;
+    padding: 90px 0;
+  }
+  .video-asociate video {
+    width: 100%;
+  }
+  .img-empresas-desktop {
+    width: 100%;
+  }
+  .propuestas-empresas-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .propuestas-empresas-desktop img {
+    margin: 70px 30px;
+  }
+  .propuestas-empresa-mobile h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  .noticias-desktop {
+    display: grid;
+    grid-template-areas: "pinoteca arte curriculum" "deporte arte curriculum";
+    grid-template-columns: "auto auto";
+    grid-template-rows: "1fr 1fr 1fr";
+    justify-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 50px;
+    padding: 40px;
+    background-color: rgba(148, 189, 227, 0.1725490196);
+  }
+  .card-pinoteca {
+    grid-area: pinoteca;
+    padding: 40px;
+  }
+  .card-deporte {
+    grid-area: deporte;
+    padding: 40px;
+  }
+  .card-arte {
+    grid-area: arte;
+    height: 600px;
+    padding: 40px;
+  }
+  .card-curriculum {
+    grid-area: curriculum;
+    width: 500px;
+    padding: 40px;
+    height: 500px;
+    background-color: white;
+  }
+  .curriculum-mobile-text {
+    font-size: 30px;
+  }
+  .card-curriculum ul li {
+    font-size: 17px;
+  }
+  .btn-curriculum {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .negrita {
+    font-weight: bold;
+  }
+  .img-principal-institucional {
+    margin-bottom: 0;
+  }
+  .foto-institucional-desktop {
+    width: 100%;
+  }
+  .btn-nav-homebanking {
+    --bs-btn-bg: #00004d;
+    --bs-btn-border-color: none;
+  }
+  .btn-nav-homebanking a {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .div-botones-desktop button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #form-homebanking {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+  }
+  #form-homebanking h1 {
+    font-size: 80px;
+    width: 300px;
+  }
+  .formulario-home {
+    margin-left: 500px;
+    margin-top: 60px;
+  }
+  .form-label, .form-check-label {
+    font-size: 25px;
+  }
+  .form-ancho-homebanking {
+    width: 400px;
+  }
+  .btn-homebanking {
+    margin-top: 50px;
+  }
+  #form-homebanking {
+    background-size: 100%;
+  }
+  carrusel-inicio {
+    width: 100%;
+  }
+  #anuncios-desktop, .boton, #novedades-desktop, .ayuda-desktop, .contactos, footer, .row-navBar, .carrusel-inner-inicio, .beneficios-desktop, footer p, .navBar {
+    width: 100%;
+  }
+  .row-navBar, .navBar, .carousel-indicators, .carousel-item, footer {
+    margin: 0;
+  }
+  .navBar {
+    padding: 30px 30px;
+    margin-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
